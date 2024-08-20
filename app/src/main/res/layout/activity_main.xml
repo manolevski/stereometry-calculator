@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        app:theme="@style/ToolbarTheme"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_cube"
+        android:layout_width="match_parent"
+        style="@style/main_button"
+        android:text="@string/cube"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_cuboid"
+        android:layout_width="match_parent"
+        style="@style/main_button"
+        android:text="@string/cuboid"
+        app:layout_constraintTop_toBottomOf="@id/button_cube"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_pyramid"
+        android:layout_width="match_parent"
+        style="@style/main_button"
+        android:text="@string/pyramid"
+        app:layout_constraintTop_toBottomOf="@id/button_cuboid"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_cylinder"
+        android:layout_width="match_parent"
+        style="@style/main_button"
+        android:text="@string/cylinder"
+        app:layout_constraintTop_toBottomOf="@id/button_pyramid"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_cone"
+        android:layout_width="match_parent"
+        style="@style/main_button"
+        android:text="@string/cone"
+        app:layout_constraintTop_toBottomOf="@id/button_cylinder"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_sphere"
+        android:layout_width="match_parent"
+        style="@style/main_button"
+        android:text="@string/sphere"
+        app:layout_constraintTop_toBottomOf="@id/button_cone"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

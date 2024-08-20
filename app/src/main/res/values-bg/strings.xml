@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cube">Куб</string>
+    <string name="cuboid">Правоъгълен паралепипед</string>
+    <string name="pyramid">Пирамида</string>
+    <string name="cylinder">Цилиндър</string>
+    <string name="cone">Конус</string>
+    <string name="sphere">Сфера</string>
+    <string name="volume_placeholder">Обем: %.2f</string>
+    <string name="area_placeholder">Повърхнина: %.2f</string>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string translatable="false" name="app_name">Stereometry Calculator</string>
+    <string name="cube">Cube</string>
+    <string name="cuboid">Rectangular prism</string>
+    <string name="pyramid">Pyramid</string>
+    <string name="cylinder">Cylinder</string>
+    <string name="cone">Cone</string>
+    <string name="sphere">Sphere</string>
+    <string name="volume_placeholder">Volume: %.2f</string>
+    <string name="area_placeholder">Surface area: %.2f</string>
+</resources>
